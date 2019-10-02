@@ -34,7 +34,6 @@
       <h2>Portals</h2>
       <div class="portals">
         <div class="Miscellaneous">
-          <p><strong>Miscellaneous:</strong></p>
           <div class = "portals_miscellaneous">
             <div class = "portal">
               <p>xp refund </p>
@@ -45,28 +44,27 @@
           </div>
         </div>
         <div class="HW">
-          <p><strong>Homework:</strong></p>
           <div class = "portals_hw">
             <div class = "portal">
-              <p>Week <strong>FIVE</strong></p>
+              <p>HW <strong>FIVE</strong></p>
               <a href="https://drive.google.com/open?id=1fBo4VLYXQw_haroVXf7TCRN1w9ul3yrX6avwErbY6U0" target="_blank">
                 <img border="0" alt="homework_portal" src="./Resources/img/nether_portal.gif" width="100" height="100">
               </a>
             </div>
             <div class = "portal">
-              <p>Week <strong>FOUR</strong></p>
+              <p>HW <strong>FOUR</strong></p>
               <a href="https://drive.google.com/open?id=1gnAHLGXDakErVwN5wuHQByg46sRoNENnZeS7oQEc8GE" target="_blank">
                 <img border="0" alt="homework_portal" src="./Resources/img/nether_portal.gif" width="100" height="100">
               </a>
             </div>
             <div class = "portal">
-              <p>Week <strong>TWO</strong></p>
+              <p>HW <strong>TWO</strong></p>
               <a href="https://drive.google.com/open?id=1BGz85unH-pZi2R5ajOR6eMgkXt_jMnZpvgx714_PzC8" target="_blank">
                 <img border="0" alt="homework_portal" src="./Resources/img/nether_portal.gif" width="100" height="100">
               </a>
             </div>
             <div class = "portal">
-              <p>Week <strong>ONE</strong></p>
+              <p>HW <strong>ONE</strong></p>
               <a href="https://drive.google.com/open?id=1gcIPWYp9E-ZYuCgVlOCUzif7Rek2wMCIqRYJgm5TZLM" target="_blank">
                 <img border="0" alt="homework_portal" src="./Resources/img/nether_portal.gif" width="100" height="100">
               </a>
@@ -89,9 +87,30 @@
       <div class="Meme">
         <img src="https://pics.me.me/minecraft-redstone-actual-engineeersengineers-real-sh-39427775.png">
       </div>
+
+      <hr>
+
+      <h2>Resources</h2>
+      <div class="Resources">
+        <h3>The Official Minecraft Wiki</h3>
+        <form onsubmit="search()">
+          <input type="text" placeholder="Search in Minecraft Wiki.." name="keyword" id="keyword">
+          <button type="submit">Search</button>
+        <form>
+        <script type="text/javascript">
+          function search(){
+              var userInput = document.getElementById("keyword").value;
+              window.open('https://minecraft.gamepedia.com/'.concat(userInput));
+          }
+        </script>
+        <p>or visit Minecrat Wiki's <a href="https://minecraft.gamepedia.com/Minecraft_Wiki">official website</a></p>
+        <h3>Minecrat's Website</h3>
+        <p>Visit Minecrat's <a href="https://minecraft.gamepedia.com/Minecraft_Wiki">official website</a></p>
+      </div>
     </section>
 
     <footer>
+      <hr>
       <p>Created by Zhengze Gong, whose <img src="./Resources/img/heart.svg" alt="heart" width="12" height="12"> is in the work</p>
     </footer>
   </body>
