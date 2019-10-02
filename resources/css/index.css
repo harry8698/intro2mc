@@ -12,3 +12,26 @@ footer {
 section {
   min-height: 85vh;
 }
+
+.portals {
+  display: flex;
+  align-content: flex-start;
+}
+
+.Miscellaneous, .HW {
+  padding-right: 30px;
+}
+
+.portals_hw {
+  display: flex;
+  align-content: flex-start;
+}
+
+.portals_miscellaneous {
+  display: flex;
+}
+
+.portal {
+  text-align: center;
+  padding-right: 10px;
+}
