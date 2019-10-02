@@ -24,7 +24,6 @@ section {
 
 .portals_hw {
   display: flex;
-  align-content: flex-start;
 }
 
 .portals_miscellaneous {
