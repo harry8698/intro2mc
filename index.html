@@ -8,7 +8,17 @@
     <meta name="google-site-verification" content="3dqEAASv-MnXIPh1yaqyY7Swl6E8umM2e0w4KE12Obs" />
   </head>
   <body>
-    <h1>Welcome to 98-205 StuCo: Introduction to Minecraft</h1>
+    <audio id="hurt">
+      <source src="./Resources/sound/player_hurt.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        var x = document.getElementById("hurt");
+        function playAudio() {
+          x.play();
+        }
+    </script>
+
+    <h1>Welcome to 98-205 StuCo: Introduction to Minecraft <img src="./Resources/img/cactus.png" onclick="playAudio()" alt="a cactus" width="40" height="40" onmouseover="" style="cursor: pointer;"> </h1>
 
     <section>
       <p>This is the offical website for <a href="https://www.cmu.edu/stuco/" target="_blank">StuCo</a>: Introduction to Minecraft at Carnegie Mellon University. </p>
