@@ -1,0 +1,14 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+html {
+  min-height: 100%;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+section {
+  min-height: 85vh;
+}
